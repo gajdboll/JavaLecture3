@@ -4,7 +4,7 @@ package Wykladd3;
 public class Osoba 
 {
 private String imie;
-private String nazwisko;
+protected String nazwisko;
 private int id;
 static private int LiczbaPracownikow;
 
