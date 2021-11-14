@@ -20,6 +20,6 @@ public void Wyswietl()
 	super.Wyswietl(); // to jest wywolanie metody wyswietl z klasy Osoba czyli wyswietlenie imienia i nazeiska pracownika
 	System.out.println("stanowisko: "+ stanowisko);
 	System.out.println("numerKarty: "+ numerKarty);
-	 System.out.println("***********************");
+	// System.out.println("***********************");
 }
 }

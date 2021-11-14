@@ -13,6 +13,9 @@ public class Dziedziczenie {
 		Pracownik p1 = new Pracownik("Adam", "Malysz", "Skoczek/Trener", "321");
 		p1.Wyswietl();
 
+		PracownikEtatowy pe1 = new PracownikEtatowy("Adam", "Malysz", "Skoczek/Trener", "321", 23.23, 25);
+		pe1.Wyswietl();
+		
 	}
 
 }

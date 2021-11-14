@@ -34,7 +34,7 @@ public void Wyswietl()
 	//System.out.println("ID: "+ id);
 	System.out.println("\nImie: "+ imie);
 	System.out.println("Nazwisko: "+ nazwisko);
-	 System.out.println("***********************");
+	// System.out.println("***********************");
 }
 
 public Osoba PowiekszID()
