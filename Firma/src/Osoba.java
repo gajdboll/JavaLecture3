@@ -29,7 +29,7 @@ public static int IlePracownikow()
 }
 public void Wyswietl()
 {
-	System.out.println("ID: "+ id);
+	//System.out.println("ID: "+ id);
 	System.out.println("Imie: "+ imie);
 	System.out.println("Nazwisko: "+ nazwisko);
 	 System.out.println("***********************");

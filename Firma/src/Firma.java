@@ -14,11 +14,18 @@ public class Firma
 	 System.out.println("Liczba pracownikow " +Pracownik.IlePracownikow());
 	 System.out.println("Liczba pracownikow " +p2.IlePracownikow());
 */
-	 Osoba o1 = new Osoba();
-	 o1.Wyswietl();
+	Stos stos = new Stos();
+		
+	Osoba o1 = new Osoba("Krzysztof","Gajdosz");	
+	Osoba o2 = new Osoba("2","2");
+	Osoba o3 = new Osoba("3","3");
+	Osoba o4 = new Osoba("4","4");
 	
+	stos.Dodaj(o1);
+	stos.Dodaj(o2);
+	stos.Dodaj(o3);
+	stos.Dodaj(o4);
 	
-	
-	
+	stos.PobierzIWysawietlWszystkich();
 	}
 }
