@@ -14,17 +14,19 @@ public class Firma
 	 System.out.println("Liczba pracownikow " +Pracownik.IlePracownikow());
 	 System.out.println("Liczba pracownikow " +p2.IlePracownikow());
 */
-	Stos stos = new Stos();
 		
-	Osoba o1 = new Osoba("Krzysztof","Gajdosz");	
+	/*Osoba o1 = new Osoba("Krzysztof","Gajdosz");	
 	Osoba o2 = new Osoba("2","2");
 	Osoba o3 = new Osoba("3","3");
 	Osoba o4 = new Osoba("4","4");
-	
-	stos.Dodaj(o1);
-	stos.Dodaj(o2);
-	stos.Dodaj(o3);
-	stos.Dodaj(o4);
+	ten kod mozna zastapic jedna linia - sprawdz pod spodem
+	*/
+	Stos stos = new Stos();
+
+	stos.Dodaj(new Osoba("Krzysztof","Gajdosz"));
+	stos.Dodaj(new Osoba("2","2"));
+	stos.Dodaj(new Osoba("3","3"));
+	stos.Dodaj(new Osoba("4","4"));
 	
 	stos.PobierzIWysawietlWszystkich();
 	}
