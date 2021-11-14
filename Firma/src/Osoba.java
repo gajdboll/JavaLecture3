@@ -1,5 +1,5 @@
 
-public class Osoba 
+public class Osoba implements ObiektZDrukuj //osoba jest implementacja
 {
 private String imie;
 private String nazwisko;

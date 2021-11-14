@@ -22,12 +22,27 @@ public class Firma
 	ten kod mozna zastapic jedna linia - sprawdz pod spodem
 	*/
 	Stos stos = new Stos();
-
-	stos.Dodaj(new Osoba("Krzysztof","Gajdosz"));
+//obiekty
+	/*stos.Dodaj(new Osoba("Krzysztof","Gajdosz"));
 	stos.Dodaj(new Osoba("2","2"));
 	stos.Dodaj(new Osoba("3","3"));
-	stos.Dodaj(new Osoba("4","4"));
+	stos.Dodaj(new Osoba("4","4"));*/
+	//samochody
+/*	stos.Dodaj(new Samochod("Krzysztof's CAR","GajdoszVIN"));
+	stos.Dodaj(new Samochod("2","2"));
+	stos.Dodaj(new Samochod("3","3"));
+	stos.Dodaj(new Samochod("4","4"));*/
+	
+	//stos.Dodaj(new Osoba("os","os2"));
+	
+	stos.Dodaj(new Urlop(3));
+	stos.Dodaj(new Urlop(2));
+	stos.Dodaj(new Urlop(32));
+	stos.Dodaj(new Urlop(1));
+	
 	
 	stos.PobierzIWysawietlWszystkich();
+	
+	
 	}
 }

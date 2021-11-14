@@ -1,7 +1,10 @@
-
+/*Poprzedni stos umial tylk o przechowywac tylko osoby a teraz potrzebujemy stosu ktore bedzie umial przechowywac inne obiekty ex. samochody, fatury itp.
+Budujemy taki stos uzywajac interfacow w javie (gdyby takiego interfacu nie bylo - musielibysmy oddzielne stosy do przechowywania tych elementoe.
+Bylaby wtedy niedopuszczalna powtarzalnosc kodu
+ * */
 public class Stos 
 {
-
+	public ObiektZDrukuj obiekt;
 	private ElementStosu wierzcholek; // jak stos powstaje to na poczatku jest pusty i przyjmuje wartosc null
 	//czyli konstruktor stosu musi stworzyc stos pusty
 	
@@ -11,7 +14,7 @@ public class Stos
 		wierzcholek=null;
 	}
 	//to jest funkcja ktora dodaje nowa osobe dostosu
-	public void Dodaj(Osoba obiekt)
+	public void Dodaj( ObiektZDrukuj obiekt)
 	{
 		ElementStosu nowy = new ElementStosu(obiekt,wierzcholek);
 		wierzcholek = nowy;
@@ -20,9 +23,9 @@ public class Stos
 	}
 	
 	//to jest funkcja ktora pobiera / zdejmuje osobe dostosu
-	public Osoba Pobierz()
+	public ObiektZDrukuj Pobierz()
 	{
-		Osoba o = wierzcholek.osoba; 
+		ObiektZDrukuj o = wierzcholek.obiekt; 
 		wierzcholek = wierzcholek.nastepny; 
 		return o;
 		 

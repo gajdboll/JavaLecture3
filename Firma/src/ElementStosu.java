@@ -2,14 +2,14 @@
 //z osoby (referencji) 
 public class ElementStosu
 {
-
-	public Osoba osoba;
+	public ObiektZDrukuj obiekt;
+	//public Osoba osoba;
 	public ElementStosu nastepny;
 	
 	
-	public ElementStosu(Osoba osoba, ElementStosu nastepny) 
+	public ElementStosu(ObiektZDrukuj obiekt, ElementStosu nastepny) 
 	{ 
-		this.osoba = osoba;
+		this.obiekt = obiekt;
 		this.nastepny = nastepny; 
 	}
 }

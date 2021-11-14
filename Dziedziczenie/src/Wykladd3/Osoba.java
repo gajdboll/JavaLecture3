@@ -1,7 +1,7 @@
 package Wykladd3;
 
 
-public class Osoba 
+public class Osoba  
 {
 private String imie;
 protected String nazwisko;

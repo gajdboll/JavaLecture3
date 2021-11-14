@@ -19,4 +19,13 @@ public void Wyswietl()
 	System.out.println("Urlop: "+ urlop);
 	// System.out.println("***********************");
 }
+public void WyswietlNazwiskoIPlaceBrutto()
+{
+	System.out.println("Nazwisko: "+ nazwisko);
+	 
+	System.out.println("Placa Brutto: "+ placaBrutto);
+	
+}
+
+
 }
